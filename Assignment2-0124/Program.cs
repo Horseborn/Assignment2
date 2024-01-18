@@ -5,5 +5,12 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
+        Hello("Sebastian");
+    }
+
+
+    static void Hello(string Name)
+    {
+        Console.WriteLine($"Hello {Name}");
     }
 }
